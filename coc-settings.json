@@ -1,0 +1,4 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "graphql", "html", "yaml",  "json", "python"],
+
+}
