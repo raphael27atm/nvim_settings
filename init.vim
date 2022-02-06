@@ -117,6 +117,7 @@ Plug 'jelera/vim-javascript-syntax'
 Plug 'w0rp/ale'
 Plug 'itmammoth/run-rspec.vim'
 Plug 'alvan/vim-closetag'
+Plug 'kwsp/halcyon-neovim'
 
 " Syntax Highlighting
 Plug 'hail2u/vim-css3-syntax'           " CSS3 syntax                                           | https://github.com/hail2u/vim-css3-syntax
@@ -169,9 +170,14 @@ syntax on
 "colorscheme gruvbox
 "colorscheme tender
 " colorscheme challenger_deep
-colorscheme tender
+"colorscheme tender
+colorscheme halcyon
+set termguicolors
+"let g:lightline = { 'colorscheme': 'challenger_deep'}
 
-let g:lightline = { 'colorscheme': 'challenger_deep'}
+let g:lightline = {
+      \ 'colorscheme': 'halcyon',
+      \ }
 
 hi Normal guibg=NONE ctermbg=NONE
 hi NonText guibg=NONE ctermbg=NONE
